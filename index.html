@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<title>Testing</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="icon.ico" sizes="16x16">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Tester functioner">
+	<meta name="keywords" content="Testing">
+	<meta name="author" content="Navn">
+	<link rel="stylesheet" type="text/css" href="w3.css">
+	<link rel="stylesheet" type="text/css" href="w3-themes.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<nav class="w3-bar w3-black">
+	<a href="#" class="w3-bar-item w3-button w3-col s12 w3-left-align">&#9776;</a><!--  w3-mobile -->
+	<a href="#" class="w3-bar-item w3-button w3-col s12 w3-left-align">Home</a><!--  w3-mobile -->
+	<a href="#" class="w3-bar-item w3-button w3-col s12 w3-left-align">Link 1</a><!--  w3-mobile -->
+	<a href="#" class="w3-bar-item w3-button w3-col s12 w3-left-align">Link 2</a><!--  w3-mobile -->
+	<a href="#" class="w3-bar-item w3-button w3-col s12 w3-left-align">Link 3</a><!--  w3-mobile -->
+</nav> 
+
+<main class="w3-container w3-pink w3-padding">
+	<div class="w3-container w3-teal">
+		<h2>hei</h2>	
+	</div>
+	<form id="uploadForm" class="w3-container w3-white w3-card-4" enctype="multipart/form-data" action="upload" method="post">
+
+		<br>
+
+		<div class="w3-row">
+			<div class="w3-half">
+				<div class="l-pad">
+					<label>
+						<input type="checkbox" id="known" checked>
+						<!-- <span class="checkmark"></span> -->
+						<span class="l-text">I know the language</span>
+					</label>
+				</div>
+				<!-- <label>
+					<input id="known" class="w3-check" type="checkbox">
+					I know the language
+				</label> -->
+			</div>
+			<div class="w3-half">
+				<select id="sprak" class="w3-select w3-border" name="option">
+					<option value="" disabled selected>Choose your option</option>
+					<option value="nob">Norwegian</option>
+					<option value="eng">English</option>
+					<option value="rus">Russian</option>
+				</select> 
+			</div>
+		</div>
+
+		<br>
+
+		<div class="w3-row">
+			<div class="w3-half">
+				<label class="w3-btn w3-cyan">
+					<input type="file" accept="image/*">
+					Upload Photo
+				</label>
+				<!-- <input type="file" name="upFile" class="w3-cyan"> -->
+			</div>
+			<div class="w3-half">
+				<label class="w3-btn w3-cyan">
+					<input type="file" accept="image/*" capture="camera">
+					Take Photo
+				</label>
+			</div>
+		</div>
+
+		<br>
+
+		<!-- <div class="w3-row">
+			<div class="w3-half">
+
+			</div>
+			<div class="w3-half">
+				
+			</div>
+		</div> -->
+
+		<p>
+			<label class="w3-btn w3-padding w3-teal" style="width:120px">
+				<input type="submit" value="upload" name="submit">
+				Send &nbsp; ❯
+			</label>
+			<!-- <button type="button" class="w3-btn w3-padding w3-teal" style="width:120px">Send &nbsp; ❯</button> -->
+		</p>
+
+		<!-- <input type="file" name="upFile"><br><br>
+		<input type="submit" value="upload" name="submit">
+		<span id="status"></span> -->
+
+	</form>
+</main>
+
+<script type="text/javascript" src="jq.js"></script>
+<script type="text/javascript" src="w3.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+input[type="file"] {
+    display: none;
+}
+input[type="submit"] {
+    display: none;
+}
+.l-pad {
+	padding:9px 0;
+	width:100%;
+}
+.l-text {
+	font-family:Verdana,sans-serif;
+	font-size:15px;
+	line-height:1.5
+}
